@@ -192,5 +192,6 @@ ul>li {
     .maindiv {
         width: 75%;
         height: 105%;
+        margin-top:2rem;
     }
 }
