@@ -155,7 +155,12 @@ ul>li {
     .imgdiv>img {
         object-fit: cover;
         object-position: 0 -60px;
-        border-radius:0;
+        border-radius: 0;
+    }
+
+    .imgdiv>img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .discounted {
@@ -174,6 +179,11 @@ ul>li {
     .maindiv {
         width: 40%;
     }
+
+    .imgdiv>img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
 
 
@@ -181,18 +191,32 @@ ul>li {
     .maindiv {
         width: 50%;
     }
+
+    .imgdiv>img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
 
 @media (max-width:715px) {
     .maindiv {
         width: 80%;
     }
+
+    .imgdiv>img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
 
 @media (max-width:460px)  {
     .maindiv {
         width: 75%;
-        height: 90%;
-        margin-top: 2rem
+        height: 75%;
+        margin-top: 2rem;
+    }
+    .imgdiv>img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }
