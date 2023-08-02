@@ -140,7 +140,7 @@ ul>li {
     .maindiv {
         flex-direction: column;
         width: 30%;
-        height: 80%;
+        height: 100%;
     }
 
     .infodiv {
@@ -218,5 +218,16 @@ ul>li {
     .imgdiv>img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .maindiv {
+        width: 90%;
+        height: 99%;
+    }
+
+    .infodiv>h2 {
+    margin-bottom: 0.75rem;
     }
 }
