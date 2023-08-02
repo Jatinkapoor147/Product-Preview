@@ -178,6 +178,7 @@ ul>li {
 @media (max-width:1215px) {
     .maindiv {
         width: 40%;
+        height: 90%;
     }
 
     .imgdiv>img {
@@ -190,6 +191,7 @@ ul>li {
 @media (max-width:910px) {
     .maindiv {
         width: 50%;
+        height: 90%;
     }
 
     .imgdiv>img {
@@ -201,6 +203,7 @@ ul>li {
 @media (max-width:715px) {
     .maindiv {
         width: 80%;
+        height: 90%;
     }
 
     .imgdiv>img {
@@ -211,20 +214,40 @@ ul>li {
 
 @media (max-width:460px)  {
     .maindiv {
-        width: 75%;
-        height: 75%;
+        width: 80%;
+        height: 90%;
         margin-top: 2rem;
     }
     .imgdiv>img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
+    .imgdiv {
+        height: 35%;
+        margin-bottom: 0.5rem;
+    }
+
+    .infodiv {
+        padding-top: .75em;
+    }
+    .infodiv>h2 {
+        margin-bottom: 0.75rem;
+        }
 }
 
 @media (max-width:400px) {
     .maindiv {
-        width: 90%;
-        height: 99%;
+        width: 80%;
+        height: 90%;
+    }
+
+    .imgdiv {
+        height: 35%;
+        margin-bottom: 0.5rem;
+    }
+
+    .infodiv {
+        padding-top: .75em;
     }
 
     .infodiv>h2 {
