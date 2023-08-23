@@ -18,6 +18,8 @@ body {
 .maindiv {
     width: 40%;
     height: 61.7%;
+    max-width:750px;
+    max-height: 600px;
     background-color: black;
     position: relative;
     top: 50%;
