@@ -16,10 +16,10 @@ body {
 }
 
 .maindiv {
-    width: 40%;
-    height: 61.7%;
-    max-width:750px;
-    max-height: 450px;
+    width:600px;
+    height:475px;
+    max-width: 700px ;
+    max-height: 600px;
     background-color: black;
     position: relative;
     top: 50%;
@@ -142,11 +142,12 @@ ul>li {
     .maindiv {
         flex-direction: column;
         width: 30%;
-        height: 100%;
+        height: 150%;
     }
 
     .infodiv {
         width: 100%;
+        height: 60%;
     }
 
     .imgdiv {
@@ -254,5 +255,9 @@ ul>li {
 
     .infodiv>h2 {
     margin-bottom: 0.75rem;
+    }
+
+    ul {
+        margin-bottom: 2rem;
     }
 }
